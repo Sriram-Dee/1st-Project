@@ -1,0 +1,233 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Dancing+Script:wght@600;700&family=Sansita+Swashed:wght@400;600;700;800&display=swap');
+
+*{  
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+    
+.cust-btn{
+        color: #fff;
+        border-radius: 35px;
+        background-color: #ffbe33;
+        padding: 4px 20px;
+        transition: all .2s ease;
+}
+.cust-btn:hover{
+    background-color: #f7ab05;
+    color: #fff;
+    transform: scale(1.03);
+}
+.fnt{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
+.fnt-1{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/*----------------------------------------------------------hero-section-------------------------------*/
+
+.hero{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient( to right, rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0)), url("/Images/brgr-fries.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-y:scroll;
+}
+
+/* -------------------------------------------------------nav bar------------------------------------------ */
+
+.navbar-brand span{
+    font-size: 40px;
+    color: #ff0000;
+}
+
+.hero .navbar li{
+margin: 10px 20px;
+}
+.hero .navbar a{
+    color: #fff;
+    transition: all .3s ease;
+}
+.hero .navbar div a:hover,.options i:hover{
+    color:#ffbe33 !important; 
+}
+.hero .navbar div a:active{
+    color:#ffbe33 !important; 
+}
+
+.options a{
+    margin: 0px 10px;
+    padding: 0px 5px;
+}
+
+/* ---------------------------------------------------Carousel slider ---------------------------*/
+#sri-carousel-ind .carousel-inner h3 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+.carousel-warpper{
+    position:absolute;
+}
+
+
+.carousel-indicators button{
+    align-self: center;
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50% ;
+    margin-top:280px ;
+}
+.carousel-indicators .active { 
+    background-color: #ffbe33;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+
+
+/* ----------------------------------------------------Offer cards -------------------------*/
+
+.offers{
+    margin-top: 100px;
+}
+ .offers .card{
+    padding: 20px 20px ;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ }
+ .offers .card .round{
+    
+    height: 150px;
+    width: 150px;
+    border: solid #f7ab05;
+    border-radius: 100%;
+    border-width: 4px;
+    overflow: hidden;
+    object-fit: cover;
+ }
+
+ .offers .card .round img{
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    overflow-clip-margin: content-box;
+ }
+ .offers .card .round img:hover{
+    scale: 1.2;
+ }
+
+ /* ---------------------------------------------------------Menu Section----------------------- */
+
+ .menu-section .container{
+    min-height: 800px;
+ }
+ .menu-section .menu a{
+    padding: 5px 20px;
+    border-radius: 25px;
+    transition: .5s ease;
+ }
+ .menu-section .menu a:hover{
+    background-color: #212529;
+    color: #f3f3f3;
+ }
+ .menu-section .menu .active{
+    background-color: #212529 !important;
+    color: #f3f3f3 !important ;
+ }
+ .menu-section .container .card{
+    color: #fff;
+    margin: 20px 20px;
+    border-radius: 15px;
+    background-color: #212529 ;
+    overflow: hidden;
+    border: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+ }
+ .menu-section .container .card .img-warpper{
+    height:215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #f3f3f3;
+    object-fit: cover;
+    border-radius: 0px 0px 0px 40px;
+ }
+
+ .menu-section .img-warpper img{
+    max-height:140px;
+    max-width:70%; 
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    transition: all .5s ease;
+ }
+
+ .menu-section .img-warpper img:hover{
+    scale: 1.1;
+ }
+ .menu-section .container .card .card-body{
+    padding: 20px 20px;
+    font-size: 14px;
+ }
+
+ /* -----------------------------------------------About-sec --------------------------------*/
+
+
+ #about-sec .row{
+    min-height: 600px;
+    align-items: center;
+ }
+
+
+ #about-sec .img-warpper{
+padding: 40px;
+ }
+
+ #about-sec img{
+    width: 90%;
+ }
+ /* ----------------------------------------Tabel Booking------------------------- */
+ #BookTable{
+    min-height: 600px;
+    
+ }
+ #BookTable .row .col{
+    border-radius: 25px;
+    min-height: 430px;
+ }
+
+ .details .form-control{
+    color: #212529;
+    height: 50px;
+    margin: 10px 20px;
+    width: 90%;
+    outline: none;  
+ }
+
+ iframe{
+   width: 97%;
+   height: 85%;
+ }
+
+ /* ---------------------------Footer Section----------------------------- */
+ footer .group a{
+   text-decoration: none;
+   color: #f3f3f3;
+   line-height: 25px;
+ }
+ footer .group a:hover{
+   color: #ffbe33;
+ }
+ footer .group a:hover i{
+   color: #ffbe33;
+ }
+ /* -----------------------------------------------   END   ----------------------------------- */
